@@ -1,22 +1,20 @@
 require("dotenv").config();
 
 var keys = require("./keys.js");
-//var inquirer = require('inquirer');
 var Spotify = require("node-spotify-api");
-// Include the axios npm package (Don't forget to run "npm install axios" in this folder first!)
 var axios = require("axios");
 var fs = require("fs");
 var moment = require("moment")
+//var inquirer = require('inquirer');
 //var request = require("request");
 
 var spotify = new Spotify(keys.spotify);
 
 //array to hold all of the node arguments
 var nodeArgs = process.argv;
-//variable to hold the action arguement
 var action = process.argv[2];
-// Create an empty variable for holding the value name (multiple words)
 var valueName = "";
+
 
 for (var i = 3; i < nodeArgs.length; i++) {
     if (i > 3 && i < nodeArgs.length) {
@@ -26,12 +24,34 @@ for (var i = 3; i < nodeArgs.length; i++) {
     }
 }
 
-//===============================================================
-if (action === "concert-this") {
-    // Then run a request with axios to the bands in town API with the artist specified
+
+function userCommand(action, valueName) {
+    switch (action) {
+        case "concert-this":
+            concertThis(valueName);
+            break;
+        case "spotify-this-song":
+            spotifyThis(valueName);
+            break;
+        case "movie-this":
+            movieThis(valueName);
+            break;
+        case "do-what-it-says":
+            doWhatItSays();
+            break;
+        default:
+            console.log("Im sorry, I dont understand");
+            break;
+    }
+}
+
+userCommand(action, valueName);
+
+
+//================================================================================================================================================
+function concertThis(valueName) {
     var queryUrl = "https://rest.bandsintown.com/artists/" + valueName + "/events?app_id=codingbootcamp";
-    // This line is just to help us debug against the actual URL.
-    console.log(queryUrl);
+    //console.log(queryUrl);
 
     axios.get(queryUrl).then(function (response) {
         //var data = JSON.stringify(response.data, null, 2)
@@ -53,8 +73,13 @@ if (action === "concert-this") {
         });
 }
 
-//===============================================================
-else if (action === "spotify-this-song") {
+
+//================================================================================================================================================
+function spotifyThis(valueName) {
+    if (!valueName) {
+        valueName = "The Sign";
+    }
+
     spotify.search({ type: 'track', query: valueName }).then(function (resp) {
         for (let i = 0; i < resp.tracks.items.length; i++) {
             let track = resp.tracks.items[i].name
@@ -77,12 +102,16 @@ else if (action === "spotify-this-song") {
         });
 }
 
-//===============================================================
-else if (action === "movie-this") {
+
+//================================================================================================================================================
+function movieThis(valueName) {
+    if (!valueName) {
+        valueName = "Mr. Nobody";
+        console.log("If you haven't watched Mr. Nobody, then you should: http://www.imdb.com/title/tt0485947/");
+    }
 
     var queryUrl = "http://www.omdbapi.com/?t=" + valueName + "&y=&plot=short&apikey=trilogy";
     //console.log(queryUrl);
-
     axios.get(queryUrl).then(
         function (response) {
             console.log("Title: " + response.data.Title +
@@ -98,19 +127,16 @@ else if (action === "movie-this") {
         });
 }
 
-//===============================================================
-else if (action === "do-what-it-says") {
+
+//================================================================================================================================================
+function doWhatItSays() {
     fs.readFile("random.txt", "utf8", function (err, data) {
         if (err) {
             return console.log(err);
         }
-
-        // Break down all the numbers inside
-        data = data.split(", ");
+        var output = data.split(",");
+        action = output[0]
+        valueName = output[1]
+        userCommand(action, valueName);
     });
-}
-
-//===============================================================
-else {
-    console.log("Im sorry, I dont understand")
 }
