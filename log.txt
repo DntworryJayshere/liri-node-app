@@ -1,0 +1,347 @@
+
+
+
+Count: 1
+Venue: Imperial GNP
+Location: Tijuana, Mexico
+Date: May 16th 2020, 12:00 pm,
+
+Count: 2
+Venue: American Family Insurance Amphitheater
+Location: Milwaukee, WI
+Date: June 28th 2020, 7:30 pm,
+
+Count: 3
+Venue: Cooley Law School Stadium
+Location: Lansing, MI
+Date: July 10th 2020, 5:00 pm,
+
+Count: 4
+Venue: Four Chord Music Festival
+Location: Washington, PA
+Date: July 11th 2020, 12:00 pm,
+
+Count: 5
+Venue: Ohio State Reformatory
+Location: Mansfield, OH
+Date: July 12th 2020, 12:00 pm,
+
+Count: 6
+Venue: LeBreton Flats
+Location: Ottawa, ON
+Date: July 15th 2020, 12:00 pm,
+
+Count: 7
+Venue: Harris Park
+Location: London, ON
+Date: July 16th 2020, 12:00 pm
+------------------------------------------------------------
+
+
+
+Count: 1
+Artist(s): blink-182
+Song Name: Happy Days
+Preview Song: https://api.spotify.com/v1/tracks/6GHAAp25FcGdaHgAn8rTif
+Ablbum: NINE,
+
+Count: 2
+Artist(s): Pratt & McClain
+Song Name: Happy Days (Theme from ''Happy Days'')
+Preview Song: https://api.spotify.com/v1/tracks/1CCuMgDauGruOwxrSh9NSW
+Ablbum: Pratt & McClain featuring "Happy Days",
+
+Count: 3
+Artist(s): Closure in Moscow
+Song Name: Happy Days
+Preview Song: https://api.spotify.com/v1/tracks/62mpzf6JpgyUaOZC2NWFi6
+Ablbum: Pink Lemonade,
+
+Count: 4
+Artist(s): Barbra Streisand
+Song Name: Happy Days Are Here Again
+Preview Song: https://api.spotify.com/v1/tracks/5kb8hqeLEXspWJZ0LrJPqE
+Ablbum: The Barbra Streisand Album: Arranged and Conducted by Peter Matz,
+
+Count: 5
+Artist(s): Cory Henry
+Song Name: Happy Days
+Preview Song: https://api.spotify.com/v1/tracks/1u8BiP9APkwKjtVb9L1z50
+Ablbum: Happy Days,
+
+Count: 6
+Artist(s): Ghost and Pals
+Song Name: Happy Days
+Preview Song: https://api.spotify.com/v1/tracks/73tvQyfXLpeNaaaOJVKkAG
+Ablbum: Thanks to You Song,
+
+Count: 7
+Artist(s): Silk
+Song Name: Happy Days
+Preview Song: https://api.spotify.com/v1/tracks/3a4UiW8cNqCZ6VANJSo1GJ
+Ablbum: Lose Control,
+
+Count: 8
+Artist(s): kieran bryan
+Song Name: Happy Days
+Preview Song: https://api.spotify.com/v1/tracks/5fYQUp6x3jYNOuhYu2RHyI
+Ablbum: Happy Days,
+
+Count: 9
+Artist(s): Glee Cast
+Song Name: Happy Days Are Here Again / Get Happy (Glee Cast Version)
+Preview Song: https://api.spotify.com/v1/tracks/00HWHVerv16snyQSRrfVWT
+Ablbum: Glee: The Music, The Complete Season Two,
+
+Count: 10
+Artist(s): Brooke Candy
+Song Name: Happy Days
+Preview Song: https://api.spotify.com/v1/tracks/5cX9444g4zz5DSIfUczLHZ
+Ablbum: Happy Days,
+
+Count: 11
+Artist(s): Gizmo myn
+Song Name: Happy Days
+Preview Song: https://api.spotify.com/v1/tracks/1fnTBM3yxuqvQqpPV1CDn7
+Ablbum: Forgotten,
+
+Count: 12
+Artist(s): Ghali
+Song Name: Happy Days
+Preview Song: https://api.spotify.com/v1/tracks/3FLp4tu69GLt0KPizUhFsU
+Ablbum: Album,
+
+Count: 13
+Artist(s): Ben Selvin and His Orchestra
+Song Name: Happy Days Are Here Again
+Preview Song: https://api.spotify.com/v1/tracks/4MBKAupV3CGxS7uMBrFX1J
+Ablbum: Happy Days Are Here Again (Authentic Recordings 1930),
+
+Count: 14
+Artist(s): TV Themes
+Song Name: Happy Days
+Preview Song: https://api.spotify.com/v1/tracks/3SpS1BPw4D6eXDVyTDRZ3b
+Ablbum: Ultimate TV Theme Tunes,
+
+Count: 15
+Artist(s): lil Pizzo
+Song Name: Happy Days
+Preview Song: https://api.spotify.com/v1/tracks/4yJq63GDPnRi4qftwNkqvF
+Ablbum: January,
+
+Count: 16
+Artist(s): Jaylin Torres
+Song Name: Happy Days
+Preview Song: https://api.spotify.com/v1/tracks/07FnsGuXwcJFZcDHtl0X4a
+Ablbum: Happy Days,
+
+Count: 17
+Artist(s): Anika Larsen
+Song Name: Happy Days Are Here Again
+Preview Song: https://api.spotify.com/v1/tracks/1PX5wBrlXUrkupmcxdqKy4
+Ablbum: Beautiful: The Carole King Musical (Original Broadway Cast Recording),
+
+Count: 18
+Artist(s): Otis Kane
+Song Name: Happy Days
+Preview Song: https://api.spotify.com/v1/tracks/0xEAI3VjltloYKULElokfc
+Ablbum: Happy Days,
+
+Count: 19
+Artist(s): The Kava Kings
+Song Name: Happy Days
+Preview Song: https://api.spotify.com/v1/tracks/6eZDAYygqSAXaYDHdBv7hb
+Ablbum: No Time to Lose,
+
+Count: 20
+Artist(s): Created Beats
+Song Name: Happy Days
+Preview Song: https://api.spotify.com/v1/tracks/4Ltocc3aMzZ4HJW9k0CXp5
+Ablbum: VHS Cassette 1
+------------------------------------------------------------------------------------
+
+
+
+Count: 1
+Artist(s): blink-182
+Song Name: Happy Days
+Preview Song: https://api.spotify.com/v1/tracks/6GHAAp25FcGdaHgAn8rTif
+Ablbum: NINE,
+
+Count: 2
+Artist(s): Pratt & McClain
+Song Name: Happy Days (Theme from ''Happy Days'')
+Preview Song: https://api.spotify.com/v1/tracks/1CCuMgDauGruOwxrSh9NSW
+Ablbum: Pratt & McClain featuring "Happy Days",
+
+Count: 3
+Artist(s): Closure in Moscow
+Song Name: Happy Days
+Preview Song: https://api.spotify.com/v1/tracks/62mpzf6JpgyUaOZC2NWFi6
+Ablbum: Pink Lemonade,
+
+Count: 4
+Artist(s): Barbra Streisand
+Song Name: Happy Days Are Here Again
+Preview Song: https://api.spotify.com/v1/tracks/5kb8hqeLEXspWJZ0LrJPqE
+Ablbum: The Barbra Streisand Album: Arranged and Conducted by Peter Matz,
+
+Count: 5
+Artist(s): Cory Henry
+Song Name: Happy Days
+Preview Song: https://api.spotify.com/v1/tracks/1u8BiP9APkwKjtVb9L1z50
+Ablbum: Happy Days,
+
+Count: 6
+Artist(s): Ghost and Pals
+Song Name: Happy Days
+Preview Song: https://api.spotify.com/v1/tracks/73tvQyfXLpeNaaaOJVKkAG
+Ablbum: Thanks to You Song,
+
+Count: 7
+Artist(s): Silk
+Song Name: Happy Days
+Preview Song: https://api.spotify.com/v1/tracks/3a4UiW8cNqCZ6VANJSo1GJ
+Ablbum: Lose Control,
+
+Count: 8
+Artist(s): kieran bryan
+Song Name: Happy Days
+Preview Song: https://api.spotify.com/v1/tracks/5fYQUp6x3jYNOuhYu2RHyI
+Ablbum: Happy Days,
+
+Count: 9
+Artist(s): Glee Cast
+Song Name: Happy Days Are Here Again / Get Happy (Glee Cast Version)
+Preview Song: https://api.spotify.com/v1/tracks/00HWHVerv16snyQSRrfVWT
+Ablbum: Glee: The Music, The Complete Season Two,
+
+Count: 10
+Artist(s): Brooke Candy
+Song Name: Happy Days
+Preview Song: https://api.spotify.com/v1/tracks/5cX9444g4zz5DSIfUczLHZ
+Ablbum: Happy Days,
+
+Count: 11
+Artist(s): Gizmo myn
+Song Name: Happy Days
+Preview Song: https://api.spotify.com/v1/tracks/1fnTBM3yxuqvQqpPV1CDn7
+Ablbum: Forgotten,
+
+Count: 12
+Artist(s): Ghali
+Song Name: Happy Days
+Preview Song: https://api.spotify.com/v1/tracks/3FLp4tu69GLt0KPizUhFsU
+Ablbum: Album,
+
+Count: 13
+Artist(s): Ben Selvin and His Orchestra
+Song Name: Happy Days Are Here Again
+Preview Song: https://api.spotify.com/v1/tracks/4MBKAupV3CGxS7uMBrFX1J
+Ablbum: Happy Days Are Here Again (Authentic Recordings 1930),
+
+Count: 14
+Artist(s): TV Themes
+Song Name: Happy Days
+Preview Song: https://api.spotify.com/v1/tracks/3SpS1BPw4D6eXDVyTDRZ3b
+Ablbum: Ultimate TV Theme Tunes,
+
+Count: 15
+Artist(s): lil Pizzo
+Song Name: Happy Days
+Preview Song: https://api.spotify.com/v1/tracks/4yJq63GDPnRi4qftwNkqvF
+Ablbum: January,
+
+Count: 16
+Artist(s): Jaylin Torres
+Song Name: Happy Days
+Preview Song: https://api.spotify.com/v1/tracks/07FnsGuXwcJFZcDHtl0X4a
+Ablbum: Happy Days,
+
+Count: 17
+Artist(s): Anika Larsen
+Song Name: Happy Days Are Here Again
+Preview Song: https://api.spotify.com/v1/tracks/1PX5wBrlXUrkupmcxdqKy4
+Ablbum: Beautiful: The Carole King Musical (Original Broadway Cast Recording),
+
+Count: 18
+Artist(s): Otis Kane
+Song Name: Happy Days
+Preview Song: https://api.spotify.com/v1/tracks/0xEAI3VjltloYKULElokfc
+Ablbum: Happy Days,
+
+Count: 19
+Artist(s): The Kava Kings
+Song Name: Happy Days
+Preview Song: https://api.spotify.com/v1/tracks/6eZDAYygqSAXaYDHdBv7hb
+Ablbum: No Time to Lose,
+
+Count: 20
+Artist(s): Created Beats
+Song Name: Happy Days
+Preview Song: https://api.spotify.com/v1/tracks/4Ltocc3aMzZ4HJW9k0CXp5
+Ablbum: VHS Cassette 1
+------------------------------------------------------------------------------------
+
+Title: Happy Gilmore
+
+Release Year: 1996
+
+IMDB Rating: 7.0
+
+Country: USA
+
+Language: English
+
+Plot: A rejected hockey player puts his skills to the golf course to save his grandmother's house.
+
+Actors: Adam Sandler, Christopher McDonald, Julie Bowen, Frances Bay
+------------------------------------------------------------------------------------
+
+
+
+Count: 1
+Venue: Imperial GNP
+Location: Tijuana, Mexico
+Date: May 16th 2020, 12:00 pm,
+
+Count: 2
+Venue: American Family Insurance Amphitheater
+Location: Milwaukee, WI
+Date: June 28th 2020, 7:30 pm,
+
+Count: 3
+Venue: Cooley Law School Stadium
+Location: Lansing, MI
+Date: July 10th 2020, 5:00 pm,
+
+Count: 4
+Venue: Four Chord Music Festival
+Location: Washington, PA
+Date: July 11th 2020, 12:00 pm,
+
+Count: 5
+Venue: Ohio State Reformatory
+Location: Mansfield, OH
+Date: July 12th 2020, 12:00 pm,
+
+Count: 6
+Venue: LeBreton Flats
+Location: Ottawa, ON
+Date: July 15th 2020, 12:00 pm,
+
+Count: 7
+Venue: Harris Park
+Location: London, ON
+Date: July 16th 2020, 12:00 pm
+------------------------------------------------------------------------------------
+
+Title: Happy Gilmore
+Release Year: 1996
+IMDB Rating: 7.0
+Country: USA
+Language: English
+Plot: A rejected hockey player puts his skills to the golf course to save his grandmother's house.
+Actors: Adam Sandler, Christopher McDonald, Julie Bowen, Frances Bay
+------------------------------------------------------------------------------------
+

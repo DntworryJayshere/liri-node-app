@@ -14,6 +14,7 @@ var spotify = new Spotify(keys.spotify);
 var nodeArgs = process.argv;
 var action = process.argv[2];
 var valueName = "";
+var divider = "\n------------------------------------------------------------------------------------\n\n";
 
 
 for (var i = 3; i < nodeArgs.length; i++) {
@@ -53,6 +54,7 @@ function concertThis(valueName) {
     //console.log(queryUrl);
 
     axios.get(queryUrl).then(function (response) {
+        var showData = [];
         //var data = JSON.stringify(response.data, null, 2)
         for (let i = 0; i < response.data.length; i++) {
             let location = response.data[i].venue.location;
@@ -61,11 +63,21 @@ function concertThis(valueName) {
             // console.log(venue)
             let datetime = moment(response.data[i].datetime).format('MMMM Do YYYY, h:mm a');
             // console.log(datetime)
-            console.log(`${i + 1}
-                    ${"Venue: " + venue}
-                    ${"Location: " + location}
-                    ${"Date: " + datetime}`)
+            let count = i + 1;
+
+            let event = [
+                "Count: " + count,
+                "Venue: " + venue,
+                "Location: " + location,
+                "Date: " + datetime,
+            ].join("\n");
+            showData.push("\n\n"+event);
         }
+
+        fs.appendFile("log.txt", showData + divider, function (err) {
+            if (err) throw err;
+            console.log(showData);
+        });
     })
         .catch(function (err) {
             console.log(err);
@@ -80,6 +92,8 @@ function spotifyThis(valueName) {
     }
 
     spotify.search({ type: 'track', query: valueName }).then(function (resp) {
+        var showData = [];
+
         for (let i = 0; i < resp.tracks.items.length; i++) {
             let track = resp.tracks.items[i].name
             let songUrl = resp.tracks.items[i].href
@@ -89,12 +103,20 @@ function spotifyThis(valueName) {
                 let artistName = resp.tracks.items[i].artists[j].name
                 artists.push(artistName)
             }
-            console.log(`${i + 1}
-                ${"Artist(s): " + artists.join(",")}
-                ${"Song Name: " + track}
-                ${"Preview Song: " + songUrl}
-                ${"Ablbum: " + albumName}`)
+            let count = i + 1;
+            let song = [
+                "Count: " + count,
+                "Artist(s): " + artists.join(","),
+                "Song Name: " + track,
+                "Preview Song: " + songUrl,
+                "Ablbum: " + albumName,
+            ].join("\n");
+            showData.push("\n\n"+song);
         }
+        fs.appendFile("log.txt", showData + divider, function (err) {
+            if (err) throw err;
+            console.log(showData);
+        });
     })
         .catch(function (err) {
             console.log(err);
@@ -113,13 +135,20 @@ function movieThis(valueName) {
     //console.log(queryUrl);
     axios.get(queryUrl).then(
         function (response) {
-            console.log("Title: " + response.data.Title +
-                "\nRelease Year: " + response.data.Year +
-                "\nIMDB Rating: " + response.data.imdbRating +
-                "\nCountry: " + response.data.Country +
-                "\nLanguage: " + response.data.Language +
-                "\nPlot: " + response.data.Plot +
-                "\nActors: " + response.data.Actors);
+            var movie = [
+                "Title: " + response.data.Title,
+                "Release Year: " + response.data.Year,
+                "IMDB Rating: " + response.data.imdbRating,
+                "Country: " + response.data.Country,
+                "Language: " + response.data.Language,
+                "Plot: " + response.data.Plot,
+                "Actors: " + response.data.Actors
+            ].join("\n");
+
+            fs.appendFile("log.txt", movie + divider, function(err) {
+                if (err) throw err;
+                console.log(movie);
+              });
         })
         .catch(function (err) {
             console.log(err);
